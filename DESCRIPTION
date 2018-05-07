@@ -1,0 +1,11 @@
+Package: serostat
+Type: Package
+Title: Modeling Infectious Disease Parameters Based on Serological and Social Contact Data R Package
+Version: 0.1
+Date: 2018-04-18
+Author: Thomas Kovac
+Maintainer: Thomas Kovac <thomas.kovac@uhasselt.be>
+Imports: AdaptFit, deSolve, gam, mgcv, splines, stats4, mixdist, VGAM, boot
+Description: Supplies the code provided in the book "Modeling Infectious Disease Parameters Based on Serological and Social Contact Data" by Niel et al. (2012).
+License: GPL-2
+LazyData: TRUE

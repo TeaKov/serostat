@@ -1,0 +1,3 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("graphics", "axis", "lines", "mtext", "par", "plot", "points")
+importFrom("stats", "as.formula", "binomial", "lsfit", "optim", "pnorm")
