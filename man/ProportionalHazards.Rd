@@ -1,6 +1,6 @@
 \name{Proportional Hazards Model}
 \alias{gam}
-\alias{prophazard}
+\alias{PropHazard}
 \title{Estimating Age-Time Dependent Prevalence and Force of Infection from Serial Prevalence Data}
 \usage{
 gam(formula, family, \ldots)
