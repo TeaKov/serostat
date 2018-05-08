@@ -7,17 +7,17 @@ GF(PP, PN, NP, NN, a, alpha1eta, beta1eta,
   gamma1eta, alpha2eta, beta2eta, gamma2eta, thetaeta)
 }
 \arguments{
-\item{PP}{}
-\item{PN}{}
-\item{NP}{}
-\item{NN}{}
-\item{a}{}
-\item{alpha1eta}{}
-\item{beta1eta}{}
-\item{gamma1eta}{}
-\item{alpha2eta}{}
-\item{beta2eta}{}
-\item{gamma2eta}{}
+\item{PP}{A numeric vector containing the number of seropositives for both diseases.}
+\item{PN}{A numeric vector containing the number of individuals that are seropositive for the first disease and seronegative for the second disease.}
+\item{NP}{A numeric vector containing the number of individuals that are seropositive for the second disease and seronegative for the first disease.}
+\item{NN}{A numeric vector containing the number of seronegatives for both diseases.}
+\item{a}{A numeric vector containing age.}
+\item{alpha1eta}{Nonnegative scaling parameter for first disease.}
+\item{beta1eta}{Nonnegative scaling parameter for first disease.}
+\item{gamma1eta}{Long-term residual value of the force of infection for the first disease (nonnegative).}
+\item{alpha2eta}{Nonnegative scaling parameter for second disease.}
+\item{beta2eta}{Nonnegative scaling parameter for second disease.}
+\item{gamma2eta}{Long-term residual value of the force of infection for the second disease (nonnegative).}
 \item{thetaeta}{The shape parameter of the gamma frailty distribution.}
 }
 \description{
