@@ -15,6 +15,7 @@ vgam(formula, family, constraints, \ldots)
 A first marginal model that can be considered is the bivariate Dale model (BDM). The BDM relates the probability of past or current infection for both diseases to the age at infection.
 }
 \examples{
+library(VGAM)
 # Load Belgian B19 data
 data("VZV_B19_BE_0103")
 VZV_B19_BE_0103 <- VZV_B19_BE_0103[!is.na(VZV_B19_BE_0103$VZVres)&
@@ -36,7 +37,6 @@ NP <- as.vector(hist(age[y1=="0"&y2=="1"], plot=FALSE, breaks=c(0,a))$counts)
 NN <- as.vector(hist(age[y1=="0"&y2=="0"], plot=FALSE, breaks=c(0,a))$counts)
 
 data <- data.frame(NN,NP,PN,PP,a=sort(a))
-#attach(data)
 
 # BDM without constraints
 \donttest{sel <- NULL
