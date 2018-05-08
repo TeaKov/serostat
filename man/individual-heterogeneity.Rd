@@ -1,6 +1,8 @@
 \name{Individual Heterogeneity - Gamma Failty}
 \alias{GF}
 \alias{Frailty}
+\alias{GammaFrailty}
+\alias{IndividualHeterogeneity}
 \title{Modeling the Prevalence and the Force of Infection Directly from Antibody Levels}
 \usage{
 GF(PP, PN, NP, NN, a, alpha1eta, beta1eta,
